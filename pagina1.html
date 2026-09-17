@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="cabecalho">
+    <div class="container">
+      <h1>Universidade Mali</h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">início</a></li>
+          <li><a href="pagina1.html">cadastro</a></li>
+          <li><a href="pag2.html">programação</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="titulo-pagina">
+      <div class="container">
+        <h2>Inscrição</h2>
+        <p>Preencha o formulário.</p>
+      </div>
+    </section>
+
+    <section class="inscricao">
+      <div class="container">
+        <form action="#" method="post">
+
+          <div class="campo">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+          </div>
+
+          <div class="campo">
+            <label for="curso">Curso</label>
+            <select id="curso" name="curso" required>
+              <option value="">Selecione o curso</option>
+              <option value="computacao">Ciência da Computação</option>
+              <option value="engenharia">Engenharia de software</option>
+              <option value="administracao">Administração</option>
+              <option value="letras">Engenharia de pesca</option>
+              <option value="design">Filosofia</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="periodo">Período</label>
+            <select id="periodo" name="periodo" required>
+              <option value="">Selecione o período</option>
+              <option value="1">1º período</option>
+              <option value="2">2º período</option>
+              <option value="3">3º período</option>
+              <option value="4">4º período</option>
+              <option value="5">5º período ou mais</option>
+            </select>
+          </div>
+          
+            <div class="campo">
+            <label for="evento">Evento desejado</label>
+            <select id="evento" name="evento" required>
+              <option value="">Selecione o evento</option>
+              <option value="ia">Palestra - Inteligência Artificial na Educação</option>
+              <option value="python">Minicurso - Introdução ao Python</option>
+              <option value="3d">Workshop - Prototipagem com Impressão 3D</option>
+              <option value="redacao">Oficina - Redação Científica</option>
+              <option value="sustentabilidade">Palestra - Sustentabilidade e Inovação</option>
+              <option value="design-thinking">Workshop - Design Thinking</option>
+            </select>
+          </div>
+
+          <div class="campo radio-opcoes">
+            <label>Modalidade</label>
+            <input type="radio" id="presencial" name="modalidade" value="presencial" checked>
+            <label for="presencial">Presencial</label>
+
+            <input type="radio" id="online" name="modalidade" value="online">
+            <label for="online">Online</label>
+          </div>
+
+          <div class="campo radio-opcoes">
+            <input type="checkbox" id="confirmacao" name="confirmacao" required>
+            <label for="confirmacao">Confirmo que os dados estão certos</label>
+          </div>
+
+          <button type="submit" class="botao-enviar">Confirmar inscrição</button>
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 todos os direitos autorais reservados. - por: @sté</p>
+  </footer>
+
+</body>
+</html>
+</body>
+</html>
